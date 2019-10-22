@@ -235,9 +235,6 @@ function createLists(lists) {
       $createCardInput.val('');
       MicroModal.show('create-card');
     }
-  
-$saveListButton.on('click', handleListCreate);
-$logoutButton.on('click', handleLogout);
 
 function handleCardCreate(event) {
   event.preventDefault();
